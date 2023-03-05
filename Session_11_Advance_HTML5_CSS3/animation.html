@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 7s;
+  animation-iteration-count: 10;
+  animation-direction: alternate-reverse;
+
+}
+
+@keyframes example {
+  
+  0%   {background-color:red; margin-left:0px; margin-right:0px;}
+  25%  {background-color:yellow; margin-right:1000px; margin-top:0px;}
+  50%  {background-color:blue; margin-left:1000px; margin-right:1000px;}
+  75%  {background-color:green; margin-right:0px; margin-top:1000px;}
+  100% {background-color:red; margin-right:0px; margin-top:0px;}
+
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Animation</h1>
+
+<div></div>
+
+<p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
+
+</body>
+</html>
+
+

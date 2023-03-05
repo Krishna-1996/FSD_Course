@@ -1,0 +1,91 @@
+<<CSS Cascaded Style Sheet>>
+https://notepad.pw/a1ahcTuB0EAqLbrXZY0k
+
+
+The aim of CSS is to allow the formatting of HTML. Thus CSS deal with look and feel. We can define CSS with the help of style tag 
+<style>
+TO format a tag 
+tagname{
+css properties;
+
+}
+</style>
+eg:
+p{
+color: red;}
+
+>>id
+>>id is an attribute which can be given to an HTML element. While giving ID we have to ensure that it is not duplicated in a page. 
+and in style we use # to denote ID 
+
+<style>
+        #para{
+            color:blue;
+        }
+    </style>
+
+    <p id="para">
+        This is krishna
+    </p>
+    <p>
+        This is another para.
+    </p>
+
+
+>>class
+IN CSS we have a class concept which is used to apply our css to different element. 
+.class notation is used to apply this in style tag . 
+div tag provide container to other tag .
+
+>>padding adjust the content within the component while margin adjust the component from the borders of the browser.
+
+>>height : In html we can define the height and width in term of pixal or percentage 
+Percentage is more preferred since, the values are calculated dynamically 
+
+>>BOX_Model: Box model means content + model + border + margin 
+>> If u want to ristrict a class from being used in one tag we use tagname.classname and to control the look of list we make list style type 
+
+>> pseudo classes are classes which are used wen we used for tool tip eg: hover etc
+>>CSS can be used in HTML in 3 ways:
+1. Inline: within the HTML tag (least Preferred)
+2. Internal: in the head tag by applying <style> tag
+3 External: using .css file from outside or creating new field for CSS. (most preferred)
+<internal overriding by external style  overriding by inline style>
+
+>>animation : CSS also support animation like change color. changing location and backgroud and it make use of key frames.
+
+Animation is define in keyframs and porperties in div tag
+It also have percentage.
+
+
+<<CSS Properties>>
+	color: yellow;
+            background-color: rgb(221, 13, 13);
+            border-color: black;
+            border-right: 10px;
+            border-left: 2px;
+            border-radius: 10px;
+            margin-top: 50px;
+	margin-left: 15px;
+            margin-right: 25px;
+            margin-bottom: 29px;
+	padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+
+Display_type.html
+<style>
+p {color: red;}
+
+p.ex1 {display: none;}
+p.ex2 {display: inline;}
+p.ex3 {display: block;}
+p.ex4 {display: inline-block;}
+div:hover p {
+  display:block ;
+  
+}
+</style>
+
+
