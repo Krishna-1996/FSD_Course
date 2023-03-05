@@ -1,0 +1,30 @@
+<**Recap GIT**>
+Git is a distributed VCS. Its major aim is to act as code repository. 
+GIT maintains two repo- 
+1. Local repo	2. Remote repo.
+
+Step 1: Create remote repo
+Step 2: Clone that repo.( >>git clone http: url)
+Step3: To see the branches available. (>>git branch -a)
+Step4: See current branch by (>>git branch)
+Step5: If u want to change th branch u can do it (>>git checkout branch_name )
+Step6: U can make changes in the file as req. to see which file have changed we can make use of (>>git status )
+Step7: U can add the files (>>git add ) to add all files
+Step8: All the changes done till now are in stagging area. If u want to make the changes in the repo, u have to make use of (>>git commit -m "message")
+Step9: The commit which is done is in local repo. If u wan to make the changes in remote repo, then (>>git push).
+NOTES:
+>>git fetch : to get latest branches.
+>>git pull : to get all the latest changes in the local from remote.
+merge comflict can occur, whenever two diff developer make changes in the same line of code. We will have to resolve this conflict to check again .
+
+
+Colspan is used to cimbine a cell for multiple  columns into a single unit. 
+Rowspan is used to combine a cell for multiple rows into a single unit
+
+<th> <td> <tr>
+th= heading of row(first row as header)
+tr= table row 
+td=table data (cell)
+
+
+

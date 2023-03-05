@@ -1,0 +1,84 @@
+<<**HTML and CSS**>>
+>>Web Designer: the one who create web design, layout font color images. The look is doen by designer
+
+>>Web devepoler: The one who make the website. The actual creating of website by web developers Skills : HTML,CSS, JAVAScript, JAVA, NodeJs...
+
+>>Web Programmer is another name of web designer.
+
+>>Web site: collection of web pages which are gruoped together and usualoly connect together like hyperlink, button table etc. 
+
+Client Server 2 tier Web achitechture
+	Enter URL--> http request  submitted to that URL-->
+Server-->				 Server give response
+	Enter URL<-- http request  submitted to that URL<--
+
+
+>>What is HTML..?
+Hyper Text Markup Language
+Describe the strucutre of web pageusing markup
+elements are represent by tags
+tags labes content heading 
+HTML is broswer dependent it means to show it self HTML is depent on broswer
+
+>>WHat is tag..?
+<head> 		</head>
+start tag 		End Tag
+Nested tag: tag within tag 
+<div>
+	<div> Inner </div>
+</div>
+Some tag are endless tag called void tag or singleton tags
+eg: 	<img src="www.google.com">(No ended tag)
+	<br> 
+
+>>Lets Go to VSCODE
+Open VSCODE
+In Extension (Left side 5th option) > Search html > install HTML CSS Support extention.
+Extentions
+Live Server
+HTML CSS support
+
+h1-h6 are header tags to give heading 
+
+>>Self closing tags
+<b>This tag is for bold.</b><br />
+  <i>This tag is for italic.</i><br />
+  <u>This tag is for underline.</u>
+<img src = "">(Image tag )
+
+>>Table in HTML
+<table> table tag
+<thead> and <tbody> the tag in table
+<thead> 	<tr> (table row for heading )</tr>
+		<th> (heading for the row)</th> 
+</thead> 
+<tbody>	<tr>(table row for data)</tr>
+		<td>(Data entering tag)</td>
+
+</tbody>
+
+>>Anchor tag is basically used to move from one web page to another web page and  this hyperlink is to connect other pages.
+<a href = "source link" > Title of tag </a>
+>>Comment
+<!--This sis comment-->
+
+>>Input Tag
+<body>
+        <label>
+            Enter your name: <input/>(To let user input something)
+        </label>
+        <label>
+            Enter your name: <input/ type="number">(To let user input the number )
+        </label>
+    </body>
+
+
+>>INPUT tags
+<label>Label name: <input/> </label>
+<label>Label name: <input type ="Seveal type are there"/> </label>
+These type have certain work to do.
+By putting name is label .. we can make it choose one option thing.
+>>Form tag
+Form tag act as a folder for other input tags. Whenever a form tag is submitted, the data from input tag is given to server. It is done with the help of  submit button. 
+
+

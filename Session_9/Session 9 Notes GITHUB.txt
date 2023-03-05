@@ -1,0 +1,136 @@
+<<***GITHUB***>>
+
+Inreal world more than one devepoler will work on same code base:
+dev1 Task 1
+dev2 Task 2(Code remain same just task is diff. )
+>>2 thing required here:
+(i) dev1 change done in some local machine
+
+>>VCS: Version Control System is used to record the changes done in files over time and we can check the specific version later like what had been changed, how did the changes and when that changes has been done
+>> Types of VCS
+1. Local VCS: Progam maintain the version of files on local machine.
+Disadv: If local machine corrupt and whole changes will gone.
+2.Centralized VCS: Centralize VCS provie a single serve machine where we maintain versions of files.
+Disadv: if server down then whole project falls down. 
+3. Distruibuted VCS: Changes are done on local as well central server. Eg: GIT, Mercurial< Bazaar etc
+
+We Study about DISTRIBUTED VCS
+
+>>GIT History
+1991 LInux Kernal its code committed in BITKeeper.
+2005 Relationship b/w Linux and BItKeeper broken down , which cause the birth of GIT.
+
+>> Advances of GIT
+Fast performance
+Smaller repository space is req. 
+GIt need 420MB
+Most operatons are local , work offline.
+
+>>GIT Repository
+database whee we story all the changes and version of files  and it contain all the history like what how and when the changes has been made.
+
+2 repo
+(i) Local Repo: Most changes are done here only in local machine without usinfg internet.
+(ii) Remote Repo: Used when we need to upload the files on server for further use and reference.
+
+
+Step1: Create Account>>
+https://github.com/
+Step2: Create New Repository
+	Click right + and add new repo
+	Name it: Git_Training 
+	click public
+	Add README file (give info about ur project)
+Step3: Go to your local. (where you what to save your project ). 
+	Go inside that folder and open cmd by clicking on repo path. and type cmd
+	Open Command prompt.
+Step4: In browser> Go to CODE button> go to GitHub HTTP and copy the <link>.
+go to cmd type:
+>>git clone <link> and press enter
+
+Step5: Open README file in notpad and edit the files by typing "This is my first training on GITHUB" and save this.
+
+Step6: go to cmd and
+>>cd GIT_Training (this is repo name where the file is saved 
+>>git status 
+
+Step7: Add the files
+>> git add README.md( it maintain the staging area and where it made changes)
+
+Step8: Commit the file 
+>> git commit( Now this changes in save in local repo)
+>>git commit -m "This is my first change"(Every thing is in local till now.)
+
+Step9: Do changes on Global or Server 
+>>git push (if req. sign in by entering pass and Username)
+
+{ Generate token is a feature that is  intended to access GitHub resources on behalf of yourself.}
+Upper Right corner > profile > Setting > Developer Setting > Left side Personal access tokens > token(classic) > Generate New Token > click all options > Copy the token link > in cmd
+>> git push > paste the tokens link > Set permission Read and write > 
+
+**Create branches**
+new branch > branch_name
+>>git fetch (to get the branch in local )
+>>git branch(to check which branch u r in )
+>>git branch -a(to list all the branches in repo)
+>>git checkout branch_name
+
+
+**Compare and pull req**
+click compare and pull req. 
+
+>>git log (show all logs the changes who did and what changes)
+>> git checkout main(switch branch from main )
+>>git log
+>>git cechkout main
+>>git pull(this will reflect the files in git cmd.)
+To change the ealier message 
+>>git commit -a -m "New messge"
+
+
+
+Conflict happens when two different developers make changes in the same line
+TO resolve the conflict
+
+>>git pull origin main(in new folder cmd )
+This will pull the origin and show conflict
+>> git mergetool
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
