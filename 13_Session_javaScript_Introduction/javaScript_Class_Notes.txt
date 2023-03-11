@@ -1,42 +1,60 @@
 ***<<javaScript_Class_Notes>>***
-
+#Intro
 >>js is an object oriented programming lang.
 >>js can work on browser. it can also work without browser.
 >>To run a js program without browser we need nodeJs install. 
 >> js can be used to create front-end as well as back-end programs. 
 >> To use js within browser(HTML) we make use of script tag <script></script>.
 
-#console.log("is used to print anything on screen")
->>Variables: are used to store data. js is 'loose type' prog langauge. So a same variable can hold different data at different time. 
-In JS we can create variable in using let and var..
->>var n1 = 30//By var
->>let n2 = 40 // By let
+console.log("is used to print anything on screen")
+
+#Variables: 
+>>Are used to store data. js is 'loose type' prog langauge. 
+>>So a same variable can hold different data at different time. 
+>>In JS we can create variable in using let and var..
+eg: 	var n1 = 30//By var
+	let n2 = 40 // By let
 const is another way to give variables
-        const Pi = 3.14
+eg:        const Pi = 3.14
         console.log(Pi)
         // const Pi = 2.24
         // console.log(Pi)Cant chang the value of const
 We cant change the value of variable in const. 
->> Relational Operators are used to check for equality greater than or less than 
 
-{var n1 = 30
+#Relational Operators
+>> Relational Operators are used to check for equality greater than or less than 
+eg: var n1 = 30
     var n2 = 25
     console.log("==",n1==n2)//equal
     console.log(">",n1>n2)//greater
     console.log("<",n1<n2)//less than
     console.log(">=",n1>=n2)//greater than equal
     console.log("<=",n1<=n2)//less than equal
-    console.log("!=",n1!=n2)//not equal}
+    console.log("!=",n1!=n2)//not equal
 
+#Ternary Operatior: the syntex of ternarry operatr is as below:
+>>(condition)?(true):(false)
+we give a condition ... if condition is true it will go like the way true  and vice versa.
+eg:  let n1 = 10 
+        let n2 = 20
+        let output = n1>n2?/*condition*/"n1 is greater"/*If condition is true*/:"n2 is greater"/*if condition id false*/
+        console.log(output)
 
+let output = n1 > n2? 
+		n1 > n3 ? 
+		n1:n3
+		: 
+		n2 > n3?
+		n2:n3
 
+#if...else condition.
+if is loop it will tak a condition . 
+if(condition){ if condition is true
+//statement that exicute
+}
+else{ if condition is false
 
-
-
-
-
-
-
+}
 
 
 
