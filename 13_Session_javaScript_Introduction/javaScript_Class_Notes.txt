@@ -3,11 +3,30 @@
 >>js is an object oriented programming lang.
 >>js can work on browser. it can also work without browser.
 >>To run a js program without browser we need nodeJs install. 
->> js can be used to create front-end as well as back-end programms. 
+>> js can be used to create front-end as well as back-end programs. 
 >> To use js within browser(HTML) we make use of script tag <script></script>.
->> js on browser has many inbuilt objects. 
 
+#console.log("is used to print anything on screen")
+>>Variables: are used to store data. js is 'loose type' prog langauge. So a same variable can hold different data at different time. 
+In JS we can create variable in using let and var..
+>>var n1 = 30//By var
+>>let n2 = 40 // By let
+const is another way to give variables
+        const Pi = 3.14
+        console.log(Pi)
+        // const Pi = 2.24
+        // console.log(Pi)Cant chang the value of const
+We cant change the value of variable in const. 
+>> Relational Operators are used to check for equality greater than or less than 
 
+{var n1 = 30
+    var n2 = 25
+    console.log("==",n1==n2)//equal
+    console.log(">",n1>n2)//greater
+    console.log("<",n1<n2)//less than
+    console.log(">=",n1>=n2)//greater than equal
+    console.log("<=",n1<=n2)//less than equal
+    console.log("!=",n1!=n2)//not equal}
 
 
 
