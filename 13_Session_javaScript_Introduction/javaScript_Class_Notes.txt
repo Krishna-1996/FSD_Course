@@ -56,15 +56,56 @@ else{ if condition is false
 
 }
 
+#Repetitive loop
+#For loop: for loop has 3 parts, 1: intialization, 2: condition, 3: increment(i++)inc by 1 or decrement.(i--)dec by1
+for loop will keep on repeating till the condition is false. 
+eg: for(i=1;i<=10;i++)
+        {
+            console.log(5,"*",i,"=",5*i)
+        }
+
+#While loop: while loop is also repetitive loop. In while loop we have only condition. Till the condition is true while loop will keep repeting. 
+eg: let i = 1;
+      while (i <= 10) {
+        console.log(5, "*", i, "=", i * 5);
+        i++;
+      }
+
+#Array: Array is basically used whenever u want to store one than one values. 
+>>Array is basically allow us to access the value by suing index. 
+>>Index of an array starts with 0. 
+>>In JS we create an array by using [ ]
+>>We can add, delete and update the elements in an array.
 
 
+Practice Questions:
+>>4. Write a JavaScript program to find the area of a triangle where lengths of the three of its sides are 5, 6, 7
 
+>>11. Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.  Go to the editor
+[ Formula : c/5 = (f-32)/9 [ where c = temperature in Celsius and f = temperature in Fahrenheit ]
+Expected Output :
+60°C is 140 °F
+45°F is 7.222222222222222°C
 
+15. Write a JavaScript program to get the difference between a given number and 13, if the number is greater than 13 return double the absolute difference.  Go to the editor
+Click me to see the solution
 
+16. Write a JavaScript program to compute the sum of the two given integers. If the two values are same, then returns triple their sum.  Go to the editor
+Click me to see the solution
 
+17. Write a JavaScript program to compute the absolute difference between a specified number and 19. Returns triple their absolute difference if the specified number is greater than 19.  Go to the editor
+Click me to see the solution
 
+18. Write a JavaScript program to check two given numbers and return true if one of the number is 50 or if their sum is 50.  Go to the editor
+Click me to see the solution
 
+19. Write a JavaScript program to check whether a given integer is within 20 of 100 or 400.  Go to the editor
+Click me to see the solution
 
+20. Write a JavaScript program to check from two given integers, whether one is positive and another one is negative.  Go to the editor
+Click me to see the solution
+
+21. Write a JavaScript program to create a new string adding "Py" in front of a given string. If the given string begins with "Py" then return the original string.  
 
 
 

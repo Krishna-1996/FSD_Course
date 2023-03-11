@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      let array = [10, 20, 30, 40, 130];
+      let sum = 0;
+      for (let i = 0; i < array.length; i++) {
+        console.log(i, array[i]);
+        //sum = sum + array[i];
+        let sq = array[i] * array[i];
+        console.log("Squares of elements:", sq);
+        sum = sum + sq;
+      }
+      console.log("sum of Sq of elemets", sum);
+    </script>
+  </head>
+  <body></body>
+</html>
