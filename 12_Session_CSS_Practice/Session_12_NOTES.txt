@@ -1,0 +1,26 @@
+CSS Grid Layout
+Grid layout allows you to define elements using rows and columns without having to use float or elements. An HTML element becomes a grid container when display is set to grid or inline grid.  
+Every grid item shound have a container.
+By using grid-template-column we can control the number of column in the grid.
+when u have :
+grid-template-columns: auto auto auto auto;
+	that will make 4 column in grid . The number of 'auto' will decide the number of column in the grid.
+Gap in between row and column
+row-gap: 10px; (gap in rows) | column-gap: 10px(gap in column)
+gap:10px; (gap in both)
+
+We can control the size of column by putting 10px (size of column) instead of auto
+
+>>MediaQuery:<<
+Few years before before the invention of mobile, the screen were fixed in size. ie: screen use to differ, only by certain fixed values. But as of today web applications are supported on varieties of screen starting from Desktop to laptops to mobile. As a result we make use of "media queries " .
+Media queries allows us to arrange the CSS, based upon a type of screen .
+
+
+
+
+
+
+
+
+
+
