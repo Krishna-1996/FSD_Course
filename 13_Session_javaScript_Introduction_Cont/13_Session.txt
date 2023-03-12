@@ -1,0 +1,113 @@
+#Pop Method used to remove the last element in the array. 
+
+let item = sample.pop()
+
+#to remove first element in array 
+>>shift method is used
+
+#to add the element at the start
+>>unshift method is used.
+
+#To merge an array
+>>concat method is used : when u use concate method it create a new array having content from both the array. 
+eg: let array1 = ["Apple", "Mango", "Gapes"]
+	let array2 = ["Pear", "JackFruit", "Strawberry"]
+	array1 = array1.concat(array2)
+	console.log(array1)
+
+#To add the element at particular position
+>>splice method is used
+arr1.splice(2, 0, "Raju");
+here 2 is a index where we need to add the element 0 means no deletion or overriding and raju is an element.
+
+#To delete the element at particular position
+>>splice(1,1);
+here 1 means the index we want to delete and the next 1 is the number of element we want to get delete from that index. 
+{splice( start-index, qunatity to delete, stuff to add)}
+
+#To undate the array we can use 
+
+eg:  let arr1 = [ "Shayam", "Baburao", "Raju"]
+       arr1[0]="SHYAAM"
+       console.log(arr1)
+
+To cut the array in 2 pieces we use
+>>slice method 
+eg: let arr1 = ["Rohit", "krishna", "Mohit","Shayam", "Baburao", "Akash"];
+        let data = arr1.slice(2,4){Where 2  is the starting element of array slice till 4th element(Exclusive)}
+        console.log(data)
+        console.log(arr1)
+	This cut the 2nd and 3rd element or arr1 and create a new array . 
+The slice method does no change the orginal array but it just make new array from the original one and need to store in new variable. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
