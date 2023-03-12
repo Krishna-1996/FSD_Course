@@ -62,9 +62,10 @@ eg:  let date = new Date();
       console.log(date.getUTCMilliseconds());
     
 
+#To get Current day:
+eg: console.log(d.toLocaleString("en-us", { weekday: "long" }));
 
-
-
+Sir new file plse
 
 
 

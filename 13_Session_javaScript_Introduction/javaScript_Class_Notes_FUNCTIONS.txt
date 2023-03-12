@@ -1,0 +1,5 @@
+<<FUNCTIONS_IN_JAVACRIPT>>
+
+Functions are basically used to give names to lines of code.
+Thus by using function, we can get code reusability.
+Code reusability helps in maintainance of project. 
