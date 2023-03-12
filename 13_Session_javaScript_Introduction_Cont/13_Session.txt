@@ -37,9 +37,30 @@ eg: let arr1 = ["Rohit", "krishna", "Mohit","Shayam", "Baburao", "Akash"];
         let data = arr1.slice(2,4){Where 2  is the starting element of array slice till 4th element(Exclusive)}
         console.log(data)
         console.log(arr1)
-	This cut the 2nd and 3rd element or arr1 and create a new array . 
+        This cut the 2nd and 3rd element or arr1 and create a new array . 
 The slice method does no change the orginal array but it just make new array from the original one and need to store in new variable. 
 
+#To get date and time in js
+eg: let currentdate = new Date();
+      console.log(currentdate);
+      console.log(currentdate.toDateString());
+      console.log(currentdate.toUTCString());
+      console.log(currentdate.toISOString());
+#To get more date formats:
+eg: /*Formats in Dates*/
+      let date1 = new Date("jan 1 2023");
+      console.log(date1);
+      let date2 = new Date("January 24 2023 13:34:45");
+      console.log(date2);
+
+#To get current date:
+eg:  let date = new Date();
+      console.log("Year:",date.getFullYear());
+      console.log("Month:",date.getMonth());
+      console.log("Hour:",date.getHours());
+      console.log("day:",date.getDay());
+      console.log(date.getUTCMilliseconds());
+    
 
 
 
