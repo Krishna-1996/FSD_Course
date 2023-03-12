@@ -50,7 +50,7 @@ let output = n1 > n2?
 #if...else condition.
 if is loop it will tak a condition . 
 if(condition){ if condition is true
-//statement that exicute
+//statement that execute
 }
 else{ if condition is false
 

@@ -1,0 +1,14 @@
+<<FUNCTIONS_IN_JAVACRIPT>>
+
+Functions are basically used to give names to lines of code.
+Thus by using function, we can get code reusability.
+Code reusability helps in maintainance of project. 
+
+JavaScript can be run in 2 ways:
+1. With browser 	2. Without browser
+1. With browser: with in browser we have a program called as DOM. DOM stands for Document Object Model. This is a program with in browser to undestand the HTML and JS. When we use js in browser, we get many inbuilt objects in browser. like document , windows etc using which we can perform many operations.
+
+>>Alert is an inbuilt javaScript DOM based  object which pop up an alert when clicked. 
+
+Elements can be fetch by using method called getElementById 
+eg: let enterName = document.getElementById("myname").value;

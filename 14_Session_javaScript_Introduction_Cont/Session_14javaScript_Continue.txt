@@ -31,7 +31,7 @@ eg:  let arr1 = [ "Shayam", "Baburao", "Raju"]
        arr1[0]="SHYAAM"
        console.log(arr1)
 
-To cut the array in 2 pieces we use
+To cut the array we use
 >>slice method 
 eg: let arr1 = ["Rohit", "krishna", "Mohit","Shayam", "Baburao", "Akash"];
         let data = arr1.slice(2,4){Where 2  is the starting element of array slice till 4th element(Exclusive)}
