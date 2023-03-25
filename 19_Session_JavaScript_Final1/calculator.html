@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Object3 Class</title>
+    <script>
+      class Calculator {
+        constructor(num1, num2) {
+          //this get called when the object is created by keyword 'new'.
+          this.num1 = num1;
+          this.num2 = num2;
+          
+        }
+        addition() {
+          console.log(this.num1+this.num2)
+
+        }subs() {
+            console.log(this.num1 - this.num2)
+          
+        }multi() {
+            console.log(this.num1 * this.num2)
+          
+        }
+        div() {
+            console.log(this.num1 / this.num2)
+          
+        }
+      } //class over
+      let add = new Calculator( 62, 32);
+      let subs = new Calculator( 62, 32);
+      let multi = new Calculator( 26, 32);
+      let div = new Calculator( 26, 32);
+
+      add.addition();
+      add.subs();
+      add.multi();
+      add.div();
+      
+    </script>
+  </head>
+  <body></body>
+</html>

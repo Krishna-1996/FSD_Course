@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      class Employee {//class Employee
+        constructor(name, id, salary) {//3 constructor in class Employee
+          this.name = name;
+          this.id = id;
+          this.salary = salary;
+        }
+        work() {//1 function name as work
+          console.log(this.name, "performs works");
+        }
+      }
+      class Manager extends Employee {//this Manager class(Child class) extend constructor of employee class(parent class)
+        constructor(name, id, salary, reportees) {//constructor reportee added
+          super(name, id, salary); //this calls  constructor from Employee class from line 10 
+          /*when ever you extend from a class, you have to call base/parents class constructor by using 'super' keyword */
+          this.reportees = reportees;
+        }
+        managers() {//function in Manager class
+          console.log(this.name, "manages employes");
+        }
+      }
+      let e1 = new Employee("krishna", 10023, 100000000);//create object for Employee class
+      let e2 = new Employee("Akash", 123, 10000000);//create object for Employee class
+      let arr1 = [e1, e2];//create array for both the object
+      let m1 = new Manager("Sir", 999, 1000000, arr1);//create object for Manager class
+      m1.managers(); //call managers function by m1 object
+      m1.work();//call work function by  m1 object
+    </script>
+  </head>
+  <body></body>
+</html>

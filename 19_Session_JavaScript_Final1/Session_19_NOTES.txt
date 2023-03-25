@@ -1,1 +1,44 @@
 << SESSION_19_NOTES >>
+
+Objects: they are currespond to real world entities, eg: student object correspond to real world student. 
+Any object will have attributes/properties (data) and functions(methods) which works on data. 
+Thus combination of properties and fucntion are known as Objects
+
+eg: student Objects:
+    properties are:
+        name 
+        age
+        rollNo
+        address....
+
+    Methods are:
+        student study
+        student play
+        student travel
+        student drink......
+
+In javaScript objects and arrays are related. 
+Arrays ahev fixed index strating from 0, in javaScript index is the property name. 
+in js you can create an empty objet by using {}.
+
+To simplify the process of creating the object, javaScript make use of classes. 
+A class is a template using which we can create objects with predefined attribute and fucntion.
+There are 2 ways to creating an objects in javaScript:
+    1. Premitive way: using functions//Object2.html
+        
+
+    2. Class Oriented way: using class //Object3.html
+
+    When we creat an object using any of the above 2 methods we have to  req a keyword 'new'.
+    keywords are words which have predefined meaning in the programming language.
+
+
+    Ques1: create a calculator class which will contain function to perform addition subs multi and division. 
+
+>> Inheritence: It is a property of Object Orientness. It is a property in which a class can get properties and functions from another class. 
+for eg: employee and manager. here we have  a relationship known as ease-a-relationship. (manager is also an employee)
+        machine and car . (car is a machine)
+
+JavaScript supports object oreited-ness with the help of 'extend' keyword.
+
+
