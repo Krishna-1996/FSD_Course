@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      
+      var arr = [];
+      function submit() {
+        let data = parseInt(document.getElementById("myId").value);
+        arr.push(data);
+        arr.sort(function (a, b) {
+          return a - b;
+        });
+
+        document.getElementById("output").innerHTML = JSON.stringify(arr);
+      }
+    </script>
+  </head>
+  <body>
+    <label for="myId"></label>
+    <input type="text" id="myId" />
+    <button onclick="submit()">Submit</button>
+    <p id="output"></p>
+  </body>
+</html>

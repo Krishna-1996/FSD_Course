@@ -8,14 +8,17 @@
     <script>
       function handleClick() {
         let table = document.createElement("table");
-        table.border = "1"
+        table.border = "1";
         let tr = document.createElement("tr");
         let td1 = document.createElement("td");
-        let td2 = document.createElement("td");
+        let td2 = document.createElement("td"); //trying
+        let td3 = document.createElement("td"); //trying
         td1.innerHTML = "tabledata1";
         td2.innerHTML = "tabledata2";
+        td3.innerHTML = "tabledata3";
         tr.appendChild(td1);
         tr.appendChild(td2);
+        tr.appendChild(td3);
         table.appendChild(tr);
 
         document.body.appendChild(table);

@@ -1,0 +1,19 @@
+map
+filter
+sort
+forEach
+concat
+indexOf
+include
+splice
+push
+pop
+
+
+***
+Sorting means arranging the data in accending and descending order.
+To arrange numbercial vue in accending order we need to use sort function with values a and b.
+The values a nd b sands for neighbouring values, 
+So to arrange in accending order a-b
+and descending order b-a
+JSON.stringify is used to display js objects in a simplified way.
