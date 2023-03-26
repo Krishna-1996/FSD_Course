@@ -1,0 +1,107 @@
+<<  19_Session_NOTES  >>
+
+DOM: Documewnt Object Model
+Dom are predefined object are available in the browser only.
+Within Browser DOm takes up the responsibility to display in it to the user.
+Useing DOm object in javaScript we can perform various operations like:
+     1. Creating a new element.
+     2. Changing a look and feel on some event.
+     3. Making a element visible/invisible.
+
+Thats why DOM is very muhch use in dynamic HTML(DHTML)
+
+IN DOM the base element is Document.Using Document object we can select various element using predefined methods like FindElementById, FindElementByName etc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
